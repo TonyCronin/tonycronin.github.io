@@ -45,6 +45,12 @@ section.background-secondary {
 .section-inverse {
   color: #fff;
 }
+
+b, strong {
+font-weight: 600;
+color: #69717c;
+}
+
 .section-inverse h1,
 .section-inverse h2,
 .section-inverse h3,
@@ -419,17 +425,18 @@ SIDEBAR + RIGHT COLUMN
 }
 .content-column-content p,
 .content-column-content li {
-  color: #999999;
+  color: #727b87;
 }
 .content-column-content ul li {
-  list-style-type: none;
+  list-style-type: disc;
+  padding-bottom: 15px;
 }
-.content-column-content ul li:before {
+/* .content-column-content ul li:before {
   font-family: 'FontAwesome';
   content: '\f105';
   margin: 0 5px 0 -15px;
   color: #3b3a36;
-}
+} */
 .small-navbar {
   margin-bottom: 20px;
 }
@@ -588,6 +595,11 @@ p.social {
   position: fixed;
   bottom: 11px;
 }
+
+.social-bottom {
+
+}
+
 p.social a {
   margin: 0 10px 10px 0;
   color: #fff;
@@ -599,7 +611,7 @@ p.social a {
   font-size: 15px;
   text-align: center;
   vertical-align: bottom;
-  border: solid 1px #e9ece5;
+  border: solid 1px #b3c2bf;
   color: #b3c2bf;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -840,7 +852,21 @@ a:active {
   transition: all 0.2s ease-out;
   overflow: hidden;
   text-overflow: ellipsis;
+  background: #fff;
 }
+
+/*  we want the margin on writing (posts) and portfolio home page to be the same */
+@media (max-width: 768px) {
+  .box-masonry {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .small-navbar {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 .box-masonry h4 {
   font-size: 16px;
   line-height: 1.5;
@@ -1197,33 +1223,7 @@ a:active {
   -ms-transform: translate(0, 100%);
   transform: translate(0, 100%);
 }
-/*
-=====================
-STYLE SWITCHER FOR DEMO
-=====================
-*/
-#style-switch-button {
-  position: fixed;
-  bottom: 200px;
-  left: 0px;
-  border-radius: 0;
-  z-index: 2;
-}
-#style-switch {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 300px;
-  padding: 20px;
-  position: fixed;
-  bottom: 240px;
-  left: 0;
-  background: #fff;
-  border: solid 1px #e9ece5;
-  z-index: 2000;
-}
-#style-switch h4 {
-  color: #555555;
+
 }
 /* ========================================= */
 /* THEMING OF BOOTSTRAP COMPONENTS           */
@@ -1591,8 +1591,8 @@ body {
   font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.55;
-  color: #384957000;
-  background-color: #fff;
+  color: #727b87;
+  background-color: #eeeee9;
 }
 a {
   color: #3b3a36;
@@ -1998,6 +1998,7 @@ h3,
 }
 p {
   margin: 0 0 24px;
+  color: #727b87;
 }
 .lead {
   margin-bottom: 24px;
