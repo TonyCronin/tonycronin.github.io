@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teams Management on Cronin on UX</title>
+    <link>/categories/teams-management/</link>
+    <description>Recent content in Teams Management on Cronin on UX</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/teams-management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Virtual Teams and Swift Trust</title>
+      <link>/writing/virtual-teams/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/writing/virtual-teams/</guid>
+      <description>Helping Your Virtual Team Succeed Virtual teams have become an essential part IT work practices. Indeed the idea that a company or organization can develop global reach without developing some degree of virtual team structure is hard to imagine. Professor Charles Handy (writing in 1995) argued virtuality is an irresistible economic force. Handy wrote that virtual teams are built on trust - &amp;ldquo;Trust inevitably requires some sense of mutuality, of reciprocal loyalty&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
