@@ -424,7 +424,7 @@ SIDEBAR + RIGHT COLUMN
 }
 .content-column-content ul li {
   list-style-type: disc;
-  padding-bottom: 15px;
+  margin-left: -20px;
 }
 /* .content-column-content ul li:before {
   font-family: 'FontAwesome';
@@ -2062,9 +2062,10 @@ abbr[data-original-title] {
 }
 blockquote {
   padding: 12px 24px;
-  margin: 0 0 24px;
+  margin: 0 0 24px 20px;
   font-size: 16px;
-  border-left: 5px solid #3b3a36;
+  border-left: 5px solid #b3c2bf;
+  background-color: #eeeee9;
 }
 blockquote footer,
 blockquote small,
