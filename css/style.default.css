@@ -416,7 +416,10 @@ SIDEBAR + RIGHT COLUMN
 } */
 
 .content-column-content p.lead {
-  color: #555555;
+  color: #69717c;
+  font-size: 140% !!important;
+  text-align: left;
+
 }
 .content-column-content p,
 .content-column-content li {
@@ -2062,7 +2065,7 @@ abbr[data-original-title] {
 }
 blockquote {
   padding: 12px 24px;
-  margin: 0 0 24px 20px;
+  margin: 0 40px 24px 20px;
   font-size: 16px;
   border-left: 5px solid #b3c2bf;
   background-color: #eeeee9;
