@@ -1,12 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.41" /> 
-    
-    
-    <meta http-equiv="refresh" content="0; URL=/work/" />
-    
-    
-    
-    
-    
-    
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tonycronin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: #023047;
+      color: #e0fbfc;
+      font-family: "JetBrains Mono", "Courier New", Courier, monospace;
+      font-weight: 300;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .terminal {
+      width: 100%;
+      max-width: 640px;
+    }
+
+    .prompt-line {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .prompt {
+      color: #fb8500;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .cursor {
+      display: inline-block;
+      width: 0.6em;
+      height: 1.1em;
+      background-color: #fb8500;
+      vertical-align: text-bottom;
+      animation: blink 1.2s step-end infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0; }
+    }
+
+    .output {
+      margin-bottom: 2rem;
+      line-height: 1.8;
+    }
+
+    .output p {
+      color: #e0fbfc;
+      font-weight: 300;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #219ebc33;
+      margin: 1.5rem 0;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .link-row {
+      display: flex;
+      gap: 1rem;
+      align-items: baseline;
+    }
+
+    .link-label {
+      color: #8ecae6;
+      font-weight: 500;
+      min-width: 8rem;
+    }
+
+    a {
+      color: #fb8500;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #219ebc;
+    }
+
+    .tag {
+      color: #8ecae688;
+      font-size: 0.85em;
+    }
+  </style>
+</head>
+<body>
+  <div class="terminal">
+
+    <div class="prompt-line">
+      <span class="prompt">~ $</span>
+      <span class="prompt">whoami</span>
+    </div>
+
+    <div class="output">
+      <p>Tony Cronin</p>
+      <p>Building things. Mostly software.</p>
+    </div>
+
+    <hr class="divider">
+
+    <div class="links">
+      <div class="link-row">
+        <span class="link-label">github</span>
+        <a href="https://github.com/TonyCronin">github.com/TonyCronin</a>
+      </div>
+      <div class="link-row">
+        <span class="link-label">lomsh</span>
+        <a href="https://tonycronin.github.io/lomsh">tonycronin.github.io/lomsh</a>
+        <span class="tag">// local model shell</span>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="prompt-line">
+      <span class="prompt">~ $</span>
+      <span class="cursor"></span>
+    </div>
+
+  </div>
+</body>
+</html>
